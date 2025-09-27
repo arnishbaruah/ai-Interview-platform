@@ -87,8 +87,8 @@ function FormContainer({ onHandleInputChange, GoToNext }) {
               <SelectValue placeholder="Select Duration" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="5 Min">5 Minutes</SelectItem>
-              <SelectItem value="15 Min">15 Minutes</SelectItem>
+              {/* <SelectItem value="5 Min">5 Minutes</SelectItem> */}
+              {/* <SelectItem value="15 Min">15 Minutes</SelectItem> */}
               <SelectItem value="30 Min">30 Minutes</SelectItem>
               <SelectItem value="45 Min">45 Minutes</SelectItem>
               <SelectItem value="60 Min">60 Minutes</SelectItem>
